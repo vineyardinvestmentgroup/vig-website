@@ -1,1 +1,65 @@
-body{margin:0;font-family:Arial;background:#faf9f7;color:#222}header{padding:20px;background:#fff;border-bottom:1px solid #ddd;text-align:center;color:#6d1f45}.hero{padding:100px 20px;text-align:center;background:#6d1f45;color:#fff}section{max-width:900px;margin:auto;padding:40px 20px}footer{background:#222;color:#fff;text-align:center;padding:30px}
+/* ===========================
+   HEADER
+=========================== */
+
+.site-header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    background:#ffffff;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 60px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+    z-index:1000;
+
+}
+
+.logo{
+
+    height:70px;
+
+    width:auto;
+
+}
+
+.site-header nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.site-header nav a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.site-header nav a:hover{
+
+    color:#6d1f45;
+
+}
