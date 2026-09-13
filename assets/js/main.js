@@ -1,3 +1,13 @@
+// Always open homepage at the top unless a visitor intentionally clicks a section link
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
+
+window.addEventListener("load", function () {
+    if (!window.location.hash) {
+        window.scrollTo(0, 0);
+    }
+});
 document.addEventListener("DOMContentLoaded", function () {
 
     const menuToggle = document.getElementById("mobileMenuToggle");
