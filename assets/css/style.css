@@ -394,15 +394,37 @@ footer a{
 
     display:block;
 
+    background:#6D1F45;
+
+    color:#ffffff;
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:6px;
+
+    font-family:'Inter',sans-serif;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    margin:14px auto 0 auto;
+
 }
 
 .navigation{
 
-    display:none;
+    display:none !important;
 
     flex-direction:column;
 
     align-items:center;
+
+    justify-content:center;
 
     gap:0;
 
@@ -414,7 +436,7 @@ footer a{
 
 .navigation.active{
 
-    display:flex;
+    display:flex!important;
 
 }
 
