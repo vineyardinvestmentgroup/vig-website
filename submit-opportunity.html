@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Submit an Opportunity | Vineyard Investment Group</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+<div class="logo-wrapper">
+
+<img src="assets/images/logo.png"
+     alt="Vineyard Investment Group"
+     class="logo">
+
+</div>
+
+<nav class="navigation">
+
+<a href="index.html">Home</a>
+
+<a href="index.html#about">About</a>
+
+<a href="index.html#strategy">Investment Strategy</a>
+
+<a href="index.html#properties">Properties</a>
+
+<a href="index.html#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>
+
+Submit an Opportunity
+
+</h1>
+
+<p>
+
+We welcome opportunities from brokers, owners,
+lenders, and strategic partners.
+
+If your opportunity aligns with our investment
+criteria, our team will review it promptly.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="content-section">
+
+<h2>Property Information</h2>
+
+<form id="opportunityForm"
+      action="https://formspree.io/f/xljeywej"
+      method="POST">
+<div id="successMessage"
+     style="display:none;
+            background:#e8f5e9;
+            border:2px solid #4CAF50;
+            padding:25px;
+            border-radius:10px;
+            margin-bottom:30px;">
+
+<h2 style="color:#2e7d32;">
+✓ Opportunity Submitted
+</h2>
+
+<p>
+
+Thank you for submitting your opportunity.
+
+Our acquisitions team reviews every opportunity carefully.
+
+If your property aligns with our investment strategy
+and acquisition criteria, we will contact you within
+<strong>48 hours.</strong>
+
+</p>
+
+</div>
+<input
+type="hidden"
+name="_subject"
+value="New Vineyard Acquisition Opportunity">
+
+<input
+type="hidden"
+name="_next"
+value="http://127.0.0.1:5500/thank-you.html">
+
+<input
+type="hidden"
+name="_subject"
+value="New Vineyard Acquisition Opportunity">
+
+<input
+type="hidden"
+name="_next"
+value="http://127.0.0.1:5500/thank-you.html">
+
+<label>Property Name</label><br>
+<input type="text" name="property_name" required><br><br>
+
+<label>Property Address</label><br>
+<input type="text" name="property_address" required><br><br>
+
+<label>City</label><br>
+<input type="text" name="city" required><br><br>
+
+<label>State</label><br>
+<input type="text" name="state" required><br><br>
+
+<label>Number of Units</label><br>
+<input type="number" name="units" required><br><br>
+
+<label>Asking Price</label><br>
+<input type="text" name="asking_price"><br><br>
+
+<label>Current Occupancy (%)</label><br>
+<input type="text" name="occupancy"><br><br>
+
+<label>Broker / Owner Name</label><br>
+<input type="text" name="contact_name" required><br><br>
+
+<label>Email Address</label><br>
+<input type="email" name="email" required><br><br>
+
+<label>Phone Number</label><br>
+<input type="tel" name="phone"><br><br>
+
+<label>Offering Memorandum Link (optional)</label><br>
+<input type="url" name="om_link"><br><br>
+
+<label>Additional Notes</label><br>
+<textarea name="notes" rows="8"></textarea><br><br>
+
+<button
+type="submit"
+class="btn primary">
+
+Submit Opportunity
+
+</button>
+
+</form>
+</section>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
